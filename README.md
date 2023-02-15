@@ -19,10 +19,10 @@ Data Engineering course project. This course is in progress.
 - capital.json - countries capitals.<br>
 - currency.json - countries currencies.<br>
 - iso3.json - list of ISO3 codes of countries.<br>
-- phone.json - phone's codes in countries.<br>
+- phone.json - phone's codes in countries.
 
-Original data files are stored in Kaggle:<br>
-https://www.kaggle.com/timoboz/country-data<br>
-https://www.kaggle.com/fernandol/countries-of-the-world<br>
-https://www.kaggle.com/max-mind/world-cities-database<br>
-https://www.kaggle.com/nobelfoundation/nobel-laureates<br>
+Original data files are stored in Kaggle:
+https://www.kaggle.com/timoboz/country-data
+https://www.kaggle.com/fernandol/countries-of-the-world
+https://www.kaggle.com/max-mind/world-cities-database
+https://www.kaggle.com/nobelfoundation/nobel-laureates
