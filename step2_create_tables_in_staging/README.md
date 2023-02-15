@@ -1,3 +1,5 @@
+## Description:
+
 ### hive
 Creating tables in a Hive staging database:
 - create an external table from a CSV file,
