@@ -1,14 +1,13 @@
 # data_engineering
-Data Engineering course project. This course is in progress.
+Example of Data Modeling, Hive, Spark.
 
 ### Based on the data in the source datasets, the following steps should be performed:
 1. Create:
-	- a database model - "Snowflake" schema (for the BI analysis), which will contain all the data from the original datasets for Nobel Laureates, cities, countries and other data, divided into separate entities - completed;
-	- a model of one dataset with all the necessary information on Nobel Laureates, their places of birth, work, etc. for further analysis by Data Scientists - completed;
-	- SQL scripts for creating tables (in this work, they are created for Oracle DB - for example) - completed;
-2. Load all original datasets "as is" to Hadoop - Hive database, create a staging (Datalake) database - completed;
-3. Transform data using Spark (Pyspark lib of Python): from the original datasets to the structure modeled in step 1 - "Snowflake" (for BI) and "Dataset" (for Data Sciencists). In the example, the data will be taken from the original datasets, in real life - from staging Hive database in a Hadoop cluster, created in step 2. - completed;
-4. Automate data pipelines with Apache Airflow - in progress.
+	- a database model - "Snowflake" schema (for the BI analysis), which will contain all the data from the original datasets for Nobel Laureates, cities, countries and other data, divided into separate entities;
+	- a model of one dataset with all the necessary information on Nobel Laureates, their places of birth, work, etc. for further analysis by Data Scientists;
+	- SQL scripts for creating tables (in this work, they are created for Oracle DB - for example);
+2. Load all original datasets "as is" to Hadoop - Hive database, create a staging (Datalake) database;
+3. Transform data using Spark (Pyspark lib of Python): from the original datasets to the structure modeled in step 1 - "Snowflake" (for BI) and "Dataset" (for Data Sciencists). In the example, the data will be taken from the original datasets, in real life - from staging Hive database in a Hadoop cluster, created in step 2.
 
 ### Decription of the initial datasets ('data' directory):
 - nobel.csv - informaton about Nobel Prizes and Nobel Laureates.<br>
