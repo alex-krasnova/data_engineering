@@ -1,5 +1,5 @@
 # data_engineering
-Example of Data Modeling, Hive, Spark.
+Example of Data Modeling, Hive, Spark, Airflow.
 
 ### Based on the data in the source datasets, the following steps should be performed:
 1. Create:
@@ -8,6 +8,10 @@ Example of Data Modeling, Hive, Spark.
 	- SQL scripts for creating tables (in this work, they are created for Oracle DB - for example);
 2. Load all original datasets "as is" to Hadoop - Hive database, create a staging (Datalake) database;
 3. Transform data using Spark (Pyspark lib of Python): from the original datasets to the structure modeled in step 1 - "Snowflake" (for BI) and "Dataset" (for Data Sciencists). In the example, the data will be taken from the original datasets, in real life - from staging Hive database in a Hadoop cluster, created in step 2.
+4. Using SQL queries and Spark code in the steps 2 and 3, create Airflow DAGs that automates a process:
+- loading data into Staging;
+- creating a snowflake and a dataset tables in the Data Warehouse.
+Create (or modify) DAGs that will load updates (staging, snowflakes and datasets).
 
 ### Decription of the initial datasets ('data' directory):
 - nobel.csv - informaton about Nobel Prizes and Nobel Laureates.<br>
